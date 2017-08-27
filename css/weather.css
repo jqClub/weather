@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+.app {
+    position: relative;
+    width: 600px;
+    height: 90vh;
+    margin: 0 auto;
+    /*border: 1px solid black;
+    border-radius: 10px;*/
+    /**/
+    margin-top: 10px;
+}
+
+.echarts {
+    width:600px;
+    height:400px;
+    margin: 0 auto;
+}
+
+.search {
+    width: 430px;
+    height: 55px;
+    margin: 0 auto;
+    /**/
+    /*border: 1px solid black;
+    border-radius: 5px;*/
+}
+/*按钮的通用样式*/
+.btn{
+    text-align: center;
+    display:inline-block;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    border-radius:5px;
+    color:#fff;
+    margin-left:10px;
+    cursor: pointer;
+    transition:all 0.3s;
+}
+/*输入框的样式*/
+.searchCity {
+    padding:5px 12px;
+    width:300px;
+    height:50px;
+    font-size:1.2rem;
+    border-radius:5px;
+    border: 1px solid #ccc;
+}
+/*添加按钮的样式*/
+.add{
+    background:#5CC853;
+}
